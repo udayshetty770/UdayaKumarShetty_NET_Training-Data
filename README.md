@@ -1,65 +1,88 @@
-# Week 1: C# Fundamentals + SQL Basics + Logic Practice
+# .NET Full Stack Developer – Training Repository
 
-## Objective
-Establish a solid foundation in C# programming, understand SQL and RDBMS concepts, and begin daily problem-solving practice to build strong logical thinking.
-
----
-
-## Topics Covered
-
-### 1. C# and Object-Oriented Programming Basics (3 Days)
-- CLR, JIT, and Garbage Collector  
-- Variables, data types, and operators  
-- Conditional statements (`if`, `else`, `switch`) and loops (`for`, `while`)  
-- Methods (parameters, optional, and output)  
-- Classes, structs, interfaces, and enums  
-- Object-Oriented Programming principles: inheritance, abstraction, and polymorphism  
-- Exception handling (`try`, `catch`, `finally`)  
-
-**Mini Exercise:**  
-Create a simple console application, such as a Student Grade Calculator, demonstrating the use of classes and interfaces.
+## Overview
+This repository contains all learning materials, exercises, and project work completed during the **.NET Full Stack Developer Training Program**.  
+The program was designed to provide complete hands-on experience in **backend, frontend, and database technologies**, preparing for industry-level full-stack development.
 
 ---
 
-### 2. Collections and LINQ (1 Day)
-- Arrays, Lists, and Dictionaries  
-- Iteration using `foreach`  
-- LINQ basics (`Select`, `Where`)  
-- Lambda expressions  
+## Training Association
 
-**Mini Exercise:**  
-Write a LINQ query to filter and display student records based on specific conditions.
+### Company
+**Dhruv Compusoft Consultancy Pvt. Ltd.**  
+Basaveshwara Nagar, Bangalore – Karnataka, India  
 
----
 
-### 3. SQL and RDBMS Concepts (1 Day)
-- Fundamentals of RDBMS: tables, keys, and normalization (1NF, 2NF)  
-- SQL operations: `SELECT`, `INSERT`, `UPDATE`, `DELETE`  
-- Understanding `JOINS`, `GROUP BY`, and `ORDER BY`  
-- Creating tables and stored procedures using SQL Server Management Studio (SSMS)
-
-**Mini Exercise:**  
-Design a simple table and perform basic SQL queries for inserting, updating, and retrieving records.
+The training focused on building a strong foundation in **.NET technologies** along with complete full-stack development using **C#, ASP.NET Core, SQL Server, and ReactJS**.
 
 ---
 
-## Tools Used
-- Visual Studio (for C# Console Applications)  
-- SQL Server Management Studio (SSMS)  
-- Git and GitHub for version control  
+## Program Details
+**Title:** .NET Full Stack Developer – Accelerated Training  
+**Duration:** October 2025 – One Month (Full-Time)  
+**Mode:** Practical & Project-Based Learning  
+**Role:** Full Stack Developer Trainee  
 
 ---
 
-## Daily Practice
-Solve one easy-to-medium data structure and algorithm problem daily on:
-- [GeeksforGeeks](https://practice.geeksforgeeks.org)  
-- [LeetCode](https://leetcode.com)
-
-Focus on problems related to arrays, strings, loops, recursion, and trees.
+## Objectives
+- Strengthen skills in **C# programming and OOP concepts**.  
+- Learn **SQL fundamentals** and work with **Microsoft SQL Server**.  
+- Develop **RESTful APIs** using **ASP.NET Core Web API** and **Entity Framework Core (Database First)**.  
+- Build **frontend interfaces** using **HTML, CSS, JavaScript, and ReactJS**.  
+- Integrate backend and frontend for a complete **full-stack CRUD application**.
 
 ---
 
-## Deliverables
-- C# console program exercises  
-- SQL practice scripts  
-- Daily DSA problem tracker (text or Excel format)
+## Week-wise Learning Modules
+
+| Week | Topics | Description |
+|------|---------|-------------|
+| **Week 1** | C# Fundamentals, SQL Basics, Logic Practice | Core programming and database concepts |
+| **Week 2** | ASP.NET Core Web API, EF Core (Database First) | Backend development and database integration |
+| **Week 3** | HTML, CSS, JavaScript, ReactJS | Frontend design and API communication |
+| **Week 4** | Full Stack Project | Student Management System – final capstone project |
+
+---
+
+## Tools and Technologies
+- **Backend:** C#, ASP.NET Core, Entity Framework Core  
+- **Frontend:** HTML, CSS, JavaScript, ReactJS  
+- **Database:** Microsoft SQL Server (SSMS)  
+- **Development Tools:** Visual Studio, Visual Studio Code, Node.js, Vite  
+- **Version Control:** Git & GitHub  
+
+---
+
+## Repository Structure
+```
+
+├── Week1/        # C# + SQL Fundamentals + DSA Practice
+├── Week2/        # ASP.NET Core Web API + EF Core
+├── Week3/        # Frontend (HTML, CSS, JavaScript, ReactJS)
+├── Week4/        # Full Stack Project (Student Management System)
+└── README.md     # Main documentation file
+
+```
+
+---
+
+## Learning Outcome
+By the end of the program, a complete **Full Stack CRUD Web Application** was developed using:
+- **ASP.NET Core Web API** for backend  
+- **Entity Framework Core** for data access  
+- **ReactJS** for the frontend interface  
+- **SQL Server** for database management  
+
+This repository demonstrates the practical implementation of modern .NET full-stack technologies.
+
+---
+
+## Acknowledgment
+This repository represents the technical learning journey under the guidance of **Adaptnxt Technologies Pvt. Ltd.**, as part of the training process supported by **Dhruv Compusoft Consultancy Pvt. Ltd.**  
+The program provided real-world project exposure and a strong foundation in full-stack software development.
+```
+
+---
+
+Would you like me to now add a **“Project Overview”** section for the Week 4 *Student Management System* (to describe the final project professionally)? It will align perfectly below this main README.
