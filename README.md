@@ -4,24 +4,6 @@
 This repository contains all learning materials, exercises, and project work completed during the **.NET Full Stack Developer Training Program**.  
 The program was designed to provide complete hands-on experience in **backend, frontend, and database technologies**, preparing for industry-level full-stack development.
 
----
-
-## Training Association
-
-### Company
-**Dhruv Compusoft Consultancy Pvt. Ltd.**  
-Basaveshwara Nagar, Bangalore – Karnataka, India  
-
-
-The training focused on building a strong foundation in **.NET technologies** along with complete full-stack development using **C#, ASP.NET Core, SQL Server, and ReactJS**.
-
----
-
-## Program Details
-**Title:** .NET Full Stack Developer – Accelerated Training  
-**Duration:** October 2025 – One Month (Full-Time)  
-**Mode:** Practical & Project-Based Learning  
-**Role:** Full Stack Developer Trainee  
 
 ---
 
