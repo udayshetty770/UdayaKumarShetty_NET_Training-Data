@@ -63,4 +63,3 @@ This repository demonstrates the practical implementation of modern .NET full-st
 ## Acknowledgment
 This repository represents the technical learning journey under the guidance of **Adaptnxt Technologies Pvt. Ltd.**, as part of the training process supported by **Dhruv Compusoft Consultancy Pvt. Ltd.**  
 The program provided real-world project exposure and a strong foundation in full-stack software development.
-```
