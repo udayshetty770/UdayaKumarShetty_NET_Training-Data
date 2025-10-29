@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 - HTML Basics | Student Registration</title>
+</head>
+<body>
+
+    <header>
+        <h1>Dhruv Compusoft Training Portal</h1>
+        <p>Week 3 - Day 1: HTML Fundamentals</p>
+        <hr>
+    </header>
+
+    <nav>
+        <a href="#register">Register</a> |
+        <a href="#list">Student List</a> |
+        <a href="#about">About</a>
+        <hr>
+    </nav>
+
+    <section id="register">
+        <h2>Student Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="course">Select Course:</label><br>
+            <select id="course" name="course" required>
+                <option value="">--Select--</option>
+                <option value="dotnet">.NET Development</option>
+                <option value="java">Java Development</option>
+                <option value="testing">Software Testing</option>
+                <option value="python">Python</option>
+            </select><br><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Any additional information..."></textarea><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </form>
+    </section>
+
+    <hr>
+
+    <section id="list">
+        <h2>Registered Students List</h2>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Student Name</th>
+                <th>Email</th>
+                <th>Course</th>
+                <th>Comments</th>
+            </tr>
+            <tr>
+                <td>Udaya Kumar</td>
+                <td>udaya@example.com</td>
+                <td>.NET Development</td>
+                <td>Interested in backend development</td>
+            </tr>
+            <tr>
+                <td>Rahul</td>
+                <td>rahul@example.com</td>
+                <td>Java Development</td>
+                <td>Wants to learn REST APIs</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="about">
+        <h2>About Dhruv Compusoft</h2>
+        <p>
+            Dhruv Compusoft Consultancy Pvt. Ltd. is a software solutions company providing services in 
+            software development, testing, and IT consulting. This training program aims to build full-stack 
+            .NET developers with strong front-end and back-end skills.
+        </p>
+    </section>
+
+    <footer>
+        <hr>
+        <p>Contact: hr@dhruvts.com | Phone: +91 98863 10738</p>
+        <p>&copy; 2025 Dhruv Compusoft Consultancy Pvt. Ltd.</p>
+    </footer>
+
+</body>
+</html>

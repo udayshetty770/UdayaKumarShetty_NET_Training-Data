@@ -1,0 +1,49 @@
+/* General Page Styling */
+body {
+  background-color: #f7f9fc;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header */
+header {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Navigation Bar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Form Section */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Table Styling */
+table {
+  background-color: white;
+}
+
+/* About Section */
+#about {
+  background-color: #e9ecef;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 20px;
+  }
+  form {
+    width: 100%;
+    padding: 15px;
+  }
+  table {
+    font-size: 14px;
+  }
+}

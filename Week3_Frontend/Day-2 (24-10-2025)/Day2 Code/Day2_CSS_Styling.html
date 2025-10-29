@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 2 - CSS Styling | Student Registration</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="text-center p-3 bg-primary text-white">
+    <h1>Dhruv Compusoft Training Portal</h1>
+    <p>Week 3 - Day 2: CSS, Flexbox & Bootstrap Styling</p>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Training Portal</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="#register" class="nav-link">Register</a></li>
+          <li class="nav-item"><a href="#list" class="nav-link">Students</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="register" class="container mt-5">
+    <h2 class="text-center mb-4">Student Registration Form</h2>
+    <form class="border p-4 rounded bg-light shadow">
+      <div class="mb-3">
+        <label for="name" class="form-label">Full Name:</label>
+        <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address:</label>
+        <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="course" class="form-label">Select Course:</label>
+        <select id="course" class="form-select" required>
+          <option value="">--Select--</option>
+          <option value="dotnet">.NET Development</option>
+          <option value="java">Java Development</option>
+          <option value="testing">Software Testing</option>
+          <option value="python">Python</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="comments" class="form-label">Comments:</label>
+        <textarea id="comments" class="form-control" rows="4" placeholder="Any additional information..."></textarea>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-success me-2">Submit</button>
+        <button type="reset" class="btn btn-danger">Clear</button>
+      </div>
+    </form>
+  </section>
+
+  <section id="list" class="container mt-5">
+    <h2 class="text-center mb-4">Registered Students List</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped text-center shadow">
+        <thead class="table-dark">
+          <tr>
+            <th>Student Name</th>
+            <th>Email</th>
+            <th>Course</th>
+            <th>Comments</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Udaya Kumar</td>
+            <td>udaya@example.com</td>
+            <td>.NET Development</td>
+            <td>Interested in backend development</td>
+          </tr>
+          <tr>
+            <td>Rahul</td>
+            <td>rahul@example.com</td>
+            <td>Java Development</td>
+            <td>Wants to learn REST APIs</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="about" class="container mt-5">
+    <h2 class="text-center mb-3">About Dhruv Compusoft</h2>
+    <p class="lead text-center">
+      Dhruv Compusoft Consultancy Pvt. Ltd. is a software solutions company specializing in
+      web development, software testing, and IT consulting. This training program aims to
+      transform fresh graduates into full-stack .NET developers skilled in both front-end
+      and back-end technologies.
+    </p>
+  </section>
+
+  <footer class="text-center mt-5 p-3 bg-dark text-white">
+    <p>Contact: hr@dhruvts.com</p>
+    <p>&copy; 2025 Dhruv Compusoft Consultancy Pvt. Ltd.</p>
+  </footer>
+
+</body>
+</html>
