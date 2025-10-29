@@ -68,7 +68,7 @@ Focus areas include arrays, strings, loops, recursion, and trees.
 - Udemy: *"C# .NET with MS SQL Complete Beginner to Master 2025"* by Dominic Tripodi  
 
 **Practice Platforms:**  
-- [LeetCode](https://leetcode.com)
+- [LeetCode](https://leetcode.com/u/Uday_shetty770/)
 
 ---
 
