@@ -1,0 +1,6 @@
+@Day2Code_StudentApi_HostAddress = http://localhost:5026
+
+GET {{Day2Code_StudentApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
