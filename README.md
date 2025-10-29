@@ -39,7 +39,7 @@ The training covers backend and frontend technologies — **C#, SQL, ASP.NET Cor
 |----------|--------------|---------------|-----------------|
 | **Student Information Console App** | Console app using class and interface concepts. | C#, ADO.NET | [View Project](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week1_CSharp_SQL/Day-7%20(%2015-10-2025%20)%20-%20With%20Mini%20Project) |
 | **Student Management Web API** | RESTful API project performing CRUD operations with EF Core and Swagger documentation. | ASP.NET Core, EF Core, SQL Server | [View Project](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week2_ASPNetCore/Day-7%20(22-10-2025)) 
-| **Student Records Frontend** | ReactJS-based UI consuming Student Web API for CRUD operations. | ReactJS, JavaScript, Bootstrap |[View Project](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-6%20(28-10-2025)%20-%20Mini%20Project))  |
+| **Student Records Frontend** | ReactJS-based UI consuming Student Web API for CRUD operations. | ReactJS, JavaScript, Bootstrap |[View Project](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-6%20(28-10-2025)%20-%20Mini%20Project)  |
 | **Full Stack Student Management System** *(Capstone)* | Integrated full-stack CRUD application with API + React frontend. | ASP.NET Core, EF Core, ReactJS, SQL Server | *(Coming Soon)* |
 
 ---
