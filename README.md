@@ -37,7 +37,7 @@ The training focuses on developing strong foundations in **C#, SQL, ASP.NET Core
 Every day includes:
 - **5–6 hours** of coding and implementation practice.  
 - **1 hour** of problem-solving from:
-  - [LeetCode](https://leetcode.com)
+  - [LeetCode](https://leetcode.com/u/Uday_shetty770/)
 
 Focus areas include arrays, strings, loops, recursion, and trees.
 
