@@ -1,6 +1,0 @@
-@Day4Code_StudentApi_HostAddress = http://localhost:5149
-
-GET {{Day4Code_StudentApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

@@ -1,6 +1,0 @@
-@Day3Code_StudentApi_HostAddress = http://localhost:5255
-
-GET {{Day3Code_StudentApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
