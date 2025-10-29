@@ -37,7 +37,6 @@ The training focuses on developing strong foundations in **C#, SQL, ASP.NET Core
 Every day includes:
 - **5–6 hours** of coding and implementation practice.  
 - **1 hour** of problem-solving from:
-  - [GeeksforGeeks](https://practice.geeksforgeeks.org)
   - [LeetCode](https://leetcode.com)
 
 Focus areas include arrays, strings, loops, recursion, and trees.
@@ -69,7 +68,6 @@ Focus areas include arrays, strings, loops, recursion, and trees.
 - Udemy: *"C# .NET with MS SQL Complete Beginner to Master 2025"* by Dominic Tripodi  
 
 **Practice Platforms:**  
-- [GeeksforGeeks](https://practice.geeksforgeeks.org)  
 - [LeetCode](https://leetcode.com)
 
 ---
