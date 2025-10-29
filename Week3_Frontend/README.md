@@ -61,30 +61,31 @@ Create a simple React app with a home page and navigation bar using React Router
 - Basic styling in React with CSS modules  
 
 **Mini Exercise:**  
-Create a StudentCard component and display multiple records using a list render.
+Create a StudentCard component and display multiple records using list rendering.
 
 ---
 
-### [Day 6 (28-10-2025): State Management and API Integration](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-6%20(28-10-2025))
+### [Day 6 (28-10-2025): React Hooks and API Integration](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-6%20(28-10-2025)%20-%20Mini%20Project)
 - Introduction to React Hooks (`useState`, `useEffect`)  
-- Managing state and form inputs  
-- Fetching data from ASP.NET Core API  
-- Handling loading and error states  
-- Conditional rendering and list updates  
+- Managing state and handling form inputs  
+- Integrating ASP.NET Core Web API (from Week 2)  
+- Fetching, adding, and updating student data  
+- Implementing basic error handling and validation  
 
-**Mini Exercise:**  
-Connect the frontend form with the Student API from Week 2 for real data display.
+**Mini Project (Part 1):**  
+Build a Student Management frontend with data fetch and create operations using the backend API.
 
 ---
 
-### [Day 7 (29-10-2025): Frontend Review and Mini Project](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-7%20(29-10-2025))
-- End-to-end integration of HTML, CSS, JS, and React modules  
-- Final code review and UI enhancements  
-- Testing React API calls and component flows  
-- Responsive design verification across devices  
+### [Day 7 (29-10-2025): React CRUD Mini Project and Review](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-7%20(29-10-2025)%20-%20Mini%20Project)
+- CRUD implementation in React (Create, Read, Update, Delete)  
+- Form validation and user feedback  
+- React Router navigation and component-level state management  
+- Final testing and UI optimization  
+- Reviewing project structure and best practices  
 
-**Mini Project:**  
-Build a ReactJS frontend for the Student Management System to perform Add/Edit/List operations through the backend API.
+**Mini Project (Part 2):**  
+Complete the Student Management System frontend with full CRUD functionality connected to the ASP.NET Core API.
 
 ---
 
@@ -101,15 +102,16 @@ Continue solving one programming or DSA problem daily on:
 - [GeeksforGeeks](https://practice.geeksforgeeks.org)  
 - [LeetCode](https://leetcode.com)
 
-Focus on logical problems using arrays, strings, loops, and recursion.
+Focus on logic-based problems involving arrays, strings, and loops.
 
 ---
 
 ## Deliverables
-- HTML, CSS, and JavaScript code exercises  
-- ReactJS mini-projects integrated with backend API  
-- Daily documents (`.pdf` / `.docx`) and output snapshots  
-- Regular GitHub commits reflecting progress  
+- HTML, CSS, and JavaScript exercises  
+- ReactJS mini-project integrated with backend API  
+- `.pdf` and `.docx` daily documents  
+- Output snapshots for each day  
+- GitHub commits reflecting daily progress  
 
 ---
 
@@ -121,11 +123,11 @@ Focus on logical problems using arrays, strings, loops, and recursion.
 | Day 3 | [Day-3 (25-10-2025)](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-3%20(25-10-2025)) |
 | Day 4 | [Day-4 (26-10-2025)](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-4%20(26-10-2025)) |
 | Day 5 | [Day-5 (27-10-2025)](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-5%20(27-10-2025)) |
-| Day 6 | [Day-6 (28-10-2025)](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-6%20(28-10-2025)) |
-| Day 7 | [Day-7 (29-10-2025)](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-7%20(29-10-2025)) |
+| Day 6 | [Day-6 (28-10-2025) - Mini Project](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-6%20(28-10-2025)%20-%20Mini%20Project) |
+| Day 7 | [Day-7 (29-10-2025) - Mini Project](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend/Day-7%20(29-10-2025)%20-%20Mini%20Project) |
 
 ---
 
 ## Summary
-Week 3 provided in-depth frontend development training using HTML, CSS, JavaScript, and ReactJS.  
-By the end of this week, the frontend interface for the Student Management System was completed and successfully connected to the ASP.NET Core Web API developed in Week 2.
+Week 3 covered the complete frontend stack, including HTML, CSS, JavaScript, and ReactJS.  
+By the end of this week, a fully functional **ReactJS-based Student Management System frontend** was completed and successfully integrated with the **ASP.NET Core Web API** built in Week 2.
