@@ -75,7 +75,7 @@ Focus on arrays, strings, loops, recursion, and trees.
 |---------|-------------|
 | [Week1_CSharp_SQL](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week1_CSharp_SQL) | C# Fundamentals + Logic Practice |
 | [Week2_ASPNetCore](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week2_ASPNetCore) | ASP.NET Core Web API + EF Core Integration |
-| [Week3_Frontend](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend) | HTML + CSS + JavaScript + ReactJS *(Upcoming)* |
+| [Week3_Frontend](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/Week3_Frontend) | HTML + CSS + JavaScript + ReactJS  |
 | Week4_FullStackProject | Full Stack Integration + Capstone Project *(Upcoming)* |
 
 ---
