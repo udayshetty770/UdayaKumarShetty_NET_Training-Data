@@ -36,7 +36,7 @@ Refactor the Student API to use a service layer and repository interface for dat
 - Connecting ASP.NET Core to SQL Server  
 - DbContext, DbSet, and migrations  
 - Performing CRUD operations using EF Core  
-- Data seeding and managing relationships  
+- Data seeding and managing relationships
 
 **Mini Exercise:**  
 Add a SQL Server database to the Student API and perform create, read, update, and delete operations using EF Core.
