@@ -1,0 +1,4 @@
+body { background: #f8f9fa; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+.card { border-radius: 10px; }
+h2, h4 { font-weight: 600; }
+.table th, .table td { vertical-align: middle; }
