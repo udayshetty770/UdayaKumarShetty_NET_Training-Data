@@ -1,0 +1,85 @@
+Multiply Strings
+
+Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
+
+Note: You must not use any built-in BigInteger library or convert the inputs to integer directly.
+
+ 
+
+Example 1:
+
+Input: num1 = "2", num2 = "3"
+Output: "6"
+Example 2:
+
+Input: num1 = "123", num2 = "456"
+Output: "56088"
+ 
+
+Constraints:
+
+1 <= num1.length, num2.length <= 200
+num1 and num2 consist of digits only.
+Both num1 and num2 do not contain any leading zero, except the number 0 itself.
+
+
+Solution : 
+
+public class Solution
+{
+    private int[] GetIntArray(string s)
+    {
+        int[] arr = new int[s.Length];
+        for (int i = 0; i < s.Length; i++)
+        {
+            arr[i] = s[i] - '0';
+        }
+        return arr;
+    }
+
+    private string ConvertToStr(int[] res, int startIndex)
+    {
+        char[] chars = new char[res.Length - startIndex];
+        int k = 0;
+        for (int i = startIndex; i < res.Length; i++)
+        {
+            chars[k++] = (char)(res[i] + '0');
+        }
+        return new string(chars);
+    }
+
+    public string Multiply(string num1, string num2)
+    {
+        int[] arr1 = GetIntArray(num1);
+        int[] arr2 = GetIntArray(num2);
+        int[] res = new int[arr1.Length + arr2.Length];
+        int index = res.Length - 1;
+
+        for (int i = arr2.Length - 1; i >= 0; i--)
+        {
+            int k = index--;
+            for (int j = arr1.Length - 1; j >= 0; j--)
+            {
+                res[k] += arr2[i] * arr1[j];
+                k--;
+            }
+        }
+
+        index = res.Length - 1;
+        int carry = 0;
+        for (int i = index; i >= 0; i--)
+        {
+            int temp = res[i] + carry;
+            res[i] = temp % 10;
+            carry = temp / 10;
+        }
+
+        int start = 0;
+        while (start < res.Length && res[start] == 0)
+        {
+            start++;
+        }
+
+        return start > index ? "0" : ConvertToStr(res, start);
+    }
+}

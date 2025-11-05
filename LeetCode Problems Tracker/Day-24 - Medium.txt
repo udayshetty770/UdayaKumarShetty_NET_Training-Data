@@ -1,0 +1,61 @@
+Sum of Two Integers
+
+Given two integers a and b, return the sum of the two integers without using the operators + and -.
+
+ 
+
+Example 1:
+
+Input: a = 1, b = 2
+Output: 3
+Example 2:
+
+Input: a = 2, b = 3
+Output: 5
+ 
+
+Constraints:
+
+-1000 <= a, b <= 1000
+
+
+Solutions : 
+
+public class Solution{   public int GetSum(int a, int b)
+        {
+            int ans = 0;
+            int memo = 0;
+            int exp = 0;
+            int count = 0;
+
+            while (count < 32)
+            {
+                int val1 = a & 1;
+                int val2 = b & 1;
+                int val = Sum(val1, val2, memo);
+                memo = val >> 1;
+                val = val & 1;
+                a = a >> 1;
+                b = b >> 1;
+                ans = ans | (val << exp);
+                exp = PlusOne(exp);
+                count = PlusOne(count);
+            }
+
+            return ans;
+        }
+
+        private int Sum(int val1, int val2, int val3)
+        {
+            int count = 0;
+            if (val1 == 1) count = PlusOne(count);
+            if (val2 == 1) count = PlusOne(count);
+            if (val3 == 1) count = PlusOne(count);
+            return count;
+        }
+
+        private int PlusOne(int val)
+        {
+            return -(~val);
+        }
+    }

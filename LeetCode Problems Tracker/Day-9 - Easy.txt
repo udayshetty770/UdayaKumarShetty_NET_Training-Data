@@ -1,0 +1,57 @@
+Valid Anagram
+
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+ 
+
+Example 1:
+
+Input: s = "anagram", t = "nagaram"
+
+Output: true
+
+Example 2:
+
+Input: s = "rat", t = "car"
+
+Output: false
+
+ 
+
+Constraints:
+
+1 <= s.length, t.length <= 5 * 104
+s and t consist of lowercase English letters.
+
+
+Solutions : 
+
+public class Solution
+{
+    public bool IsAnagram(string s, string t)
+    {
+        if (s.Length != t.Length)
+        {
+            return false;
+        }
+
+        int[] charFreqMap = new int[26];
+
+        foreach (char c in s)
+        {
+            charFreqMap[c - 'a']++;
+        }
+
+        foreach (char c in t)
+        {
+            if (charFreqMap[c - 'a'] == 0)
+            {
+                return false;
+            }
+            charFreqMap[c - 'a']--;
+        }
+
+        return true;
+    }
+}
+ 
