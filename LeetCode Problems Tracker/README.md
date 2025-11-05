@@ -1,62 +1,68 @@
 LeetCode Solutions Tracker
 
-This repository contains C# solutions to 60 popular LeetCode problems, organized by date and difficulty. Each solution is implemented with clarity and efficiency, ideal for interview prep and backend development practice.
+This repository contains C# solutions to 60 popular LeetCode problems, organized by date and difficulty. Each solution is implemented with clarity and efficiency — ideal for interview prep, backend mastery, and algorithmic practice.
 
-### 📅 Solved Problems
+
+## Solved Problems
 
 | Date       | Problem Name                             | Difficulty | LeetCode Link |
 |------------|-------------------------------------------|------------|----------------|
-| 10/09/2025 | Longest Substring Without Repeating Chars | Medium     | [Problem #3](https://leetcode.com/problems/longest-substring-without-repeating-characters) |
-| 10/09/2025 | Two Sum                                   | Easy       | [Problem #1](https://leetcode.com/problems/two-sum) |
-| 10/10/2025 | Container With Most Water                 | Medium     | [Problem #11](https://leetcode.com/problems/container-with-most-water) |
-| 10/10/2025 | Palindrome Number                         | Easy       | [Problem #9](https://leetcode.com/problems/palindrome-number) |
-| 10/11/2025 | Search in Rotated Sorted Array            | Medium     | [Problem #33](https://leetcode.com/problems/search-in-rotated-sorted-array) |
-| 10/11/2025 | Binary Search                             | Easy       | [Problem #704](https://leetcode.com/problems/binary-search) |
-| 10/12/2025 | Multiply Strings                          | Medium     | [Problem #43](https://leetcode.com/problems/multiply-strings) |
-| 10/12/2025 | Longest Common Prefix                     | Easy       | [Problem #14](https://leetcode.com/problems/longest-common-prefix) |
-| 10/13/2025 | Add Two Numbers                           | Medium     | [Problem #2](https://leetcode.com/problems/add-two-numbers) |
-| 10/13/2025 | Linked List Cycle                         | Easy       | [Problem #141](https://leetcode.com/problems/linked-list-cycle) |
-| 10/14/2025 | Remove Nth Node From End of List          | Medium     | [Problem #19](https://leetcode.com/problems/remove-nth-node-from-end-of-list) |
-| 10/14/2025 | Merge Two Sorted Lists                    | Easy       | [Problem #21](https://leetcode.com/problems/merge-two-sorted-lists) |
-| 10/15/2025 | Min Stack                                 | Medium     | [Problem #155](https://leetcode.com/problems/min-stack) |
-| 10/15/2025 | Valid Parentheses                         | Easy       | [Problem #20](https://leetcode.com/problems/valid-parentheses) |
-| 10/16/2025 | Permutations                              | Medium     | [Problem #46](https://leetcode.com/problems/permutations) |
-| 10/16/2025 | Climbing Stairs                           | Easy       | [Problem #70](https://leetcode.com/problems/climbing-stairs) |
-| 10/17/2025 | Group Anagrams                            | Medium     | [Problem #49](https://leetcode.com/problems/group-anagrams) |
-| 10/17/2025 | Valid Anagram                             | Easy       | [Problem #242](https://leetcode.com/problems/valid-anagram) |
-| 10/18/2025 | Top K Frequent Elements                   | Medium     | [Problem #347](https://leetcode.com/problems/top-k-frequent-elements) |
-| 10/18/2025 | Contains Duplicate                        | Easy       | [Problem #217](https://leetcode.com/problems/contains-duplicate) |
-| 10/19/2025 | Binary Tree Level Order Traversal         | Medium     | [Problem #102](https://leetcode.com/problems/binary-tree-level-order-traversal) |
-| 10/19/2025 | Binary Tree Inorder Traversal             | Easy       | [Problem #94](https://leetcode.com/problems/binary-tree-inorder-traversal) |
-| 10/20/2025 | Symmetric Tree                            | Medium     | [Problem #101](https://leetcode.com/problems/symmetric-tree) |
-| 10/20/2025 | Invert Binary Tree                        | Easy       | [Problem #226](https://leetcode.com/problems/invert-binary-tree) |
-| 10/21/2025 | Find Peak Element                         | Medium     | [Problem #162](https://leetcode.com/problems/find-peak-element) |
-| 10/21/2025 | Sqrt(x)                                   | Easy       | [Problem #69](https://leetcode.com/problems/sqrtx) |
-| 10/22/2025 | Minimum Size Subarray Sum                 | Medium     | [Problem #209](https://leetcode.com/problems/minimum-size-subarray-sum) |
-| 10/22/2025 | Best Time to Buy and Sell Stock           | Easy       | [Problem #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) |
-| 10/23/2025 | Subarray Sum Equals K                     | Medium     | [Problem #560](https://leetcode.com/problems/subarray-sum-equals-k) |
-| 10/23/2025 | Range Sum Query                           | Easy       | [Problem #303](https://leetcode.com/problems/range-sum-query-immutable) |
-| 10/24/2025 | Zigzag Conversion                         | Medium     | [Problem #6](https://leetcode.com/problems/zigzag-conversion) |
-| 10/24/2025 | Valid Palindrome                          | Easy       | [Problem #125](https://leetcode.com/problems/valid-palindrome) |
-| 10/25/2025 | Two Sum II - Sorted Array                 | Medium     | [Problem #167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) |
-| 10/25/2025 | Find First Occurrence                     | Easy       | [Problem #28](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) |
-| 10/26/2025 | Spiral Matrix                             | Medium     | [Problem #54](https://leetcode.com/problems/spiral-matrix) |
-| 10/26/2025 | Next Greater Element III                  | Easy       | [Problem #556](https://leetcode.com/problems/next-greater-element-iii) |
-| 10/27/2025 | Jump Game                                 | Medium     | [Problem #55](https://leetcode.com/problems/jump-game) |
-| 10/27/2025 | Lemonade Change                           | Easy       | [Problem #860](https://leetcode.com/problems/lemonade-change) |
-| 10/28/2025 | Unique Paths                              | Medium     | [Problem #62](https://leetcode.com/problems/unique-paths) |
-| 10/28/2025 | Pascal’s Triangle                         | Easy       | [Problem #118](https://leetcode.com/problems/pascals-triangle) |
-| 10/29/2025 | Longest Palindromic Substring             | Medium     | [Problem #5](https://leetcode.com/problems/longest-palindromic-substring) |
-| 10/29/2025 | Maximum Subarray                          | Easy       | [Problem #53](https://leetcode.com/problems/maximum-subarray) |
-| 10/30/2025 | Daily Temperatures                        | Medium     | [Problem #739](https://leetcode.com/problems/daily-temperatures) |
-| 10/30/2025 | Implement Queue Using Stacks              | Easy       | [Problem #232](https://leetcode.com/problems/implement-queue-using-stacks) |
-| 10/31/2025 | Insert Delete GetRandom O(1)              | Medium     | [Problem #380](https://leetcode.com/problems/insert-delete-getrandom-o1) |
-| 10/31/2025 | Intersection of Two Arrays                | Easy       | [Problem #349](https://leetcode.com/problems/intersection-of-two-arrays) |
-| 11/01/2025 | Sum of Two Integers                       | Medium     | [Problem #371](https://leetcode.com/problems/sum-of-two-integers) |
-| 11/01/2025 | Number of 1 Bits                          | Easy       | [Problem #191](https://leetcode.com/problems/number-of-1-bits) |
-| 11/02/2025 | Kth Smallest Element in a BST             | Medium     | [Problem #230](https://leetcode.com/problems/kth-smallest-element-in-a-bst) |
-| 11/02/2025 | Path Sum                                  | Easy       | [Problem #112](https://leetcode.com/problems/path-sum) |
-| 11/03/2025 | Kth Largest Element in an Array           | Medium     | [Problem #215](https://leetcode.com/problems/kth-largest-element-in-an-array) |
-| 11/03/2025 | Kth Largest Element in a Stream           | Easy       | [Problem #703](https://leetcode.com/problems/kth-largest-element-in-a-stream) |
-| 11/04/2025 | Find the Town Judge                       | Medium     | [Problem #997](https://leetcode.com/problems/find-the-town-judge) |
-| 11/04/2025 | Same Tree                                 | Easy       | [Problem #100](https://leetcode.com/problems/same-tree)
+| 09-10-2025 | Longest Substring Without Repeating Chars | Medium     | [#3](https://leetcode.com/problems/longest-substring-without-repeating-characters) |
+| 09-10-2025 | Two Sum                                   | Easy       | [#1](https://leetcode.com/problems/two-sum) |
+| 10-10-2025 | Container With Most Water                 | Medium     | [#11](https://leetcode.com/problems/container-with-most-water) |
+| 10-10-2025 | Palindrome Number                         | Easy       | [#9](https://leetcode.com/problems/palindrome-number) |
+| 11-10-2025 | Search in Rotated Sorted Array            | Medium     | [#33](https://leetcode.com/problems/search-in-rotated-sorted-array) |
+| 11-10-2025 | Binary Search                             | Easy       | [#704](https://leetcode.com/problems/binary-search) |
+| 12-10-2025 | Multiply Strings                          | Medium     | [#43](https://leetcode.com/problems/multiply-strings) |
+| 12-10-2025 | Longest Common Prefix                     | Easy       | [#14](https://leetcode.com/problems/longest-common-prefix) |
+| 13-10-2025 | Add Two Numbers                           | Medium     | [#2](https://leetcode.com/problems/add-two-numbers) |
+| 13-10-2025 | Linked List Cycle                         | Easy       | [#141](https://leetcode.com/problems/linked-list-cycle) |
+| 14-10-2025 | Remove Nth Node From End of List          | Medium     | [#19](https://leetcode.com/problems/remove-nth-node-from-end-of-list) |
+| 14-10-2025 | Merge Two Sorted Lists                    | Easy       | [#21](https://leetcode.com/problems/merge-two-sorted-lists) |
+| 15-10-2025 | Min Stack                                 | Medium     | [#155](https://leetcode.com/problems/min-stack) |
+| 15-10-2025 | Valid Parentheses                         | Easy       | [#20](https://leetcode.com/problems/valid-parentheses) |
+| 16-10-2025 | Permutations                              | Medium     | [#46](https://leetcode.com/problems/permutations) |
+| 16-10-2025 | Climbing Stairs                           | Easy       | [#70](https://leetcode.com/problems/climbing-stairs) |
+| 17-10-2025 | Group Anagrams                            | Medium     | [#49](https://leetcode.com/problems/group-anagrams) |
+| 17-10-2025 | Valid Anagram                             | Easy       | [#242](https://leetcode.com/problems/valid-anagram) |
+| 18-10-2025 | Top K Frequent Elements                   | Medium     | [#347](https://leetcode.com/problems/top-k-frequent-elements) |
+| 18-10-2025 | Contains Duplicate                        | Easy       | [#217](https://leetcode.com/problems/contains-duplicate) |
+| 19-10-2025 | Binary Tree Level Order Traversal         | Medium     | [#102](https://leetcode.com/problems/binary-tree-level-order-traversal) |
+| 19-10-2025 | Binary Tree Inorder Traversal             | Easy       | [#94](https://leetcode.com/problems/binary-tree-inorder-traversal) |
+| 20-10-2025 | Symmetric Tree                            | Medium     | [#101](https://leetcode.com/problems/symmetric-tree) |
+| 20-10-2025 | Invert Binary Tree                        | Easy       | [#226](https://leetcode.com/problems/invert-binary-tree) |
+| 21-10-2025 | Find Peak Element                         | Medium     | [#162](https://leetcode.com/problems/find-peak-element) |
+| 21-10-2025 | Sqrt(x)                                   | Easy       | [#69](https://leetcode.com/problems/sqrtx) |
+| 22-10-2025 | Minimum Size Subarray Sum                 | Medium     | [#209](https://leetcode.com/problems/minimum-size-subarray-sum) |
+| 22-10-2025 | Best Time to Buy and Sell Stock           | Easy       | [#121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) |
+| 23-10-2025 | Subarray Sum Equals K                     | Medium     | [#560](https://leetcode.com/problems/subarray-sum-equals-k) |
+| 23-10-2025 | Range Sum Query                           | Easy       | [#303](https://leetcode.com/problems/range-sum-query-immutable) |
+| 24-10-2025 | Zigzag Conversion                         | Medium     | [#6](https://leetcode.com/problems/zigzag-conversion) |
+| 24-10-2025 | Valid Palindrome                          | Easy       | [#125](https://leetcode.com/problems/valid-palindrome) |
+| 25-10-2025 | Two Sum II - Sorted Array                 | Medium     | [#167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) |
+| 25-10-2025 | Find First Occurrence                     | Easy       | [#28](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) |
+| 26-10-2025 | Spiral Matrix                             | Medium     | [#54](https://leetcode.com/problems/spiral-matrix) |
+| 26-10-2025 | Next Greater Element III                  | Easy       | [#556](https://leetcode.com/problems/next-greater-element-iii) |
+| 27-10-2025 | Jump Game                                 | Medium     | [#55](https://leetcode.com/problems/jump-game) |
+| 27-10-2025 | Lemonade Change                           | Easy       | [#860](https://leetcode.com/problems/lemonade-change) |
+| 28-10-2025 | Unique Paths                              | Medium     | [#62](https://leetcode.com/problems/unique-paths) |
+| 28-10-2025 | Pascal’s Triangle                         | Easy       | [#118](https://leetcode.com/problems/pascals-triangle) |
+| 29-10-2025 | Longest Palindromic Substring             | Medium     | [#5](https://leetcode.com/problems/longest-palindromic-substring) |
+| 29-10-2025 | Maximum Subarray                          | Easy       | [#53](https://leetcode.com/problems/maximum-subarray) |
+| 30-10-2025 | Daily Temperatures                        | Medium     | [#739](https://leetcode.com/problems/daily-temperatures) |
+| 30-10-2025 | Implement Queue Using Stacks              | Easy       | [#232](https://leetcode.com/problems/implement-queue-using-stacks) |
+| 31-10-2025 | Insert Delete GetRandom O(1)              | Medium     | [#380](https://leetcode.com/problems/insert-delete-getrandom-o1) |
+| 31-10-2025 | Intersection of Two Arrays                | Easy       | [#349](https://leetcode.com/problems/intersection-of-two-arrays) |
+| 01-11-2025 | Sum of Two Integers                       | Medium     | [#371](https://leetcode.com/problems/sum-of-two-integers) |
+| 01-11-2025 | Number of 1 Bits                          | Easy       | [#191](https://leetcode.com/problems/number-of-1-bits) |
+| 02-11-2025 | Kth Smallest Element in a BST             | Medium     | [#230](https://leetcode.com/problems/kth-smallest-element-in-a-bst) |
+| 02-11-2025 | Path Sum                                  | Easy       | [#112](https://leetcode.com/problems/path-sum) |
+| 03-11-2025 | Kth Largest Element in an Array           | Medium     | [#215](https://leetcode.com/problems/kth-largest-element-in-an-array) |
+| 03-11-2025 | Kth Largest Element in a Stream           | Easy       | [#703](https://leetcode.com/problems/kth-largest-element-in-a-stream) |
+| 04-11-2025 | Find the Town Judge                       | Medium     | [#997](https://leetcode.com/problems/find-the-town-judge) |
+| 04-11-2025 | Same Tree                                 | Easy       | [#100](https://leetcode.com/problems/same-tree) |
+| 05-11-2025 | Number of Islands                         | Medium     | [#200](https://leetcode.com/problems/number-of-islands) |
+| 05-11-2025 | Power of Two                              | Easy       | [#231](https://leetcode.com/problems/power-of-two) |
+| 06-11-2025 | Rotting Oranges                           | Medium     | [#994](https://leetcode.com/problems/rotting-oranges) |
+| 06-11-2025 | Flood Fill                                | Easy       | [#733](https://leetcode.com/problems/flood-fill) |
+
