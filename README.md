@@ -80,6 +80,15 @@ Focus on arrays, strings, loops, recursion, and trees.
 
 ---
 
+### LeetCode Problems Tracker  
+Focused on **daily DSA practice** throughout the training using [LeetCode](https://leetcode.com/u/Uday_shetty770/).  
+The tracker (`LeetCode Tracker.xlsx`) records all problems solved with details like **difficulty, topic, and language**.  
+Practiced problems in **C# and JavaScript**, covering Arrays, Strings, Loops, and Trees to strengthen logic and problem-solving skills.
+
+🔗 [View Folder →](https://github.com/udayshetty770/UdayaKumarShetty_NET_Training-Data/tree/main/LeetCode%20Problems%20Tracker)
+
+---
+
 ## Resources
 **Free:**  
 - [freeCodeCamp](https://www.freecodecamp.org) – HTML, CSS, JS, React  
