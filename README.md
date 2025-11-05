@@ -104,3 +104,5 @@ Practiced problems in **C# and JavaScript**, covering Arrays, Strings, Loops, an
 
 **Last Updated:** October 2025  
 **Author:** [Udaya Kumar Shetty](https://github.com/udayshetty770)
+
+![Project view counter on GitHub](https://komarev.com/ghpvc/?username=udayshetty770)
