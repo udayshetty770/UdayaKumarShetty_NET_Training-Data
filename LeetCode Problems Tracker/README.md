@@ -1,4 +1,4 @@
-LeetCode Solutions Tracker
+## LeetCode Solutions Tracker
 
 This repository contains C# solutions to 60 popular LeetCode problems, organized by date and difficulty. Each solution is implemented with clarity and efficiency — ideal for interview prep, backend mastery, and algorithmic practice.
 
