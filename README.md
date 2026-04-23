@@ -1,7 +1,7 @@
 # .NET Full Stack Developer Training Repository
 
 ## Overview
-This repository contains all learning materials, exercises, and projects completed during the **.NET Full Stack Developer 1-Month Training Program** conducted by **Dhruv Compusoft Consultancy Pvt. Ltd**.
+This repository contains all learning materials, exercises, and projects completed during the **.NET Full Stack Developer 1 Month Training Program** conducted by **Dhruv Compusoft Consultancy Pvt. Ltd**.
 
 The training covers backend and frontend technologies — **C#, SQL, ASP.NET Core, Entity Framework Core, and ReactJS** — and concludes with a **Full-Stack Student Management System project**.
 
